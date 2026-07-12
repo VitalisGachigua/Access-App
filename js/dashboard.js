@@ -67,7 +67,7 @@ function loadUser() {
     if (currentUser) {
 
         welcomeMessage.textContent =
-            `Welcome, ${currentUser.username}!`;
+            `Welcome, ${currentUser.name}!`;
 
         userEmail.textContent =
             currentUser.email;
